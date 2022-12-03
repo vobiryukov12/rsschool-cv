@@ -73,4 +73,5 @@ Educational projects:
 
 ## Languages
 * Russian <br>
+* Uzbek <br>
 * English (A1 — Elementary). Currently, I am actively studying the language, taking the course "Teacher's Method" on the Puzzle English online platform, and also listening to the audio course "English by the method of Dr. Pimsler" for the practice of spoken English.
