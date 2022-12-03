@@ -4,7 +4,7 @@
 ## Contacts
 
 * Location: Moscow, Russia <br>
-* Phone: +7 969 037 35 69 <br>
+* Phone: +7 (969) 037 35 69 <br>
 * E-mail: vobiryukov12@gmail.com
 
 ## About Me
