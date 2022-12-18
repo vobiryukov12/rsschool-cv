@@ -393,3 +393,23 @@ body {
 .education__name {
   font-size: 500;
 }
+
+.languages {
+  margin-bottom: 32px;
+}
+.languages__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 0;
+}
+.languages__item {
+  list-style: none;
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 0;
+  margin-right: 0;
+}
