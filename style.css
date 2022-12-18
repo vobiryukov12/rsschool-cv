@@ -266,3 +266,105 @@ body {
   color: #252728;
   font-weight: 700;
 }
+
+.projects {
+  margin-bottom: 32px;
+  scroll-margin-top: 126px;
+}
+.projects__container {
+  text-align: center;
+}
+.projects__title {
+  text-align: start;
+  margin-bottom: 32px;
+  padding-left: 0px;
+}
+.projects__cards-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.cards-item {
+  background: #222525;
+  width: 100%;
+  text-decoration: none;
+  margin-bottom: 24px;
+  text-align: start;
+  border-radius: 5px;
+}
+.cards-item:last-child {
+  margin-bottom: 0;
+}
+.cards-item__box-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 300px;
+  margin-bottom: 30px;
+}
+.cards-item__img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.cards-item__content {
+  padding: 0px 25px 30px 25px;
+}
+.cards-item__title {
+  margin-bottom: 10px;
+  color: #BDEBEA;
+}
+.cards-item__stack {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 7px;
+}
+.cards-item__text {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #BDEBEA;
+}
+.cards-item__stack-button {
+  height: 30px;
+  padding: 0px 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, right top, from(#00F5A0), to(#00D9F5));
+  background: linear-gradient(90deg, #00F5A0 0%, #00D9F5 100%);
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #1F2626;
+  border-radius: 4px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+}
+
