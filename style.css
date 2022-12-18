@@ -156,3 +156,13 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.about-me {
+  margin-bottom: 32px;
+  scroll-margin-top: 126px;
+}
+.about-me__text {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+}
