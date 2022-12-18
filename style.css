@@ -622,3 +622,42 @@ body {
     border-bottom-right-radius: 0;
   }
 }
+
+@media (max-width: 600px) {
+  .container {
+    max-width: 340px;
+  }
+
+  .first-section__header-container {
+    margin-left: -170px;
+    width: 340px;
+  }
+  .first-section__hero-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .first-section__left-wrapper {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    text-align: center;
+    margin-right: 0;
+  }
+  .first-section__title {
+    font-size: 36px;
+    line-height: 48px;
+  }
+  .first-section__resume {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .cards-item__box-img {
+    height: 200px;
+  }
+}
