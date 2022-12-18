@@ -368,3 +368,28 @@ body {
   margin-bottom: 12px;
 }
 
+.education {
+  margin-bottom: 32px;
+  scroll-margin-top: 126px;
+}
+.education__list {
+  margin-bottom: 20px;
+}
+.education__list:last-child {
+  margin-bottom: 0;
+}
+.education__item {
+  margin-bottom: 20px;
+  list-style: none;
+}
+.education__org {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.education__date {
+  margin-bottom: 20px;
+}
+.education__name {
+  font-size: 500;
+}
