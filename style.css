@@ -225,22 +225,22 @@ body {
           align-items: center;
 }
 .skills-list__html {
-  background-image: url("../icons/icon-html.svg");
+  background-image: url("icons/icon-html.svg");
 }
 .skills-list__css {
-  background-image: url("../icons/icon-css.svg");
+  background-image: url("icons/icon-css.svg");
 }
 .skills-list__js {
-  background-image: url("../icons/icon-js.svg");
+  background-image: url("icons/icon-js.svg");
 }
 .skills-list__sass {
-  background-image: url("../icons/icon-sass.svg");
+  background-image: url("icons/icon-sass.svg");
 }
 .skills-list__git {
-  background-image: url("../icons/icon-git.svg");
+  background-image: url("icons/icon-git.svg");
 }
 .skills-list__figma {
-  background-image: url("../icons/icon-figma.svg");
+  background-image: url("icons/icon-figma.svg");
 }
 .skills-list__level {
   margin: 0 0 40px;
