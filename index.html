@@ -4,8 +4,240 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CV</title>
+  <meta name="keywords" content="vlad, cv, resume">
+  <meta name="description" content="Vlad Biryukov CV">
+  <title>CV | Vlad Biryukov</title>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Tinos&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/650982b261.js" crossorigin="anonymous"></script>
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+  <!-- First section -->
+  <section class="first-section">
+    <header class="container first-section__header-container section-box">
+      <nav class="first-section__nav nav-menu">
+
+        <div class="header__burger">
+          <span></span>
+        </div>
+
+        <div class="nav-menu__left">
+          <a class="nav-menu__item" href="#about-me">About me</a>
+          <a class="nav-menu__item" href="#skills">Skills</a>
+          <a class="nav-menu__item" href="#projects">Projects</a>
+          <a class="nav-menu__item" href="#education">Education</a>
+          <a class="nav-menu__item" href="#languages">Languages</a>
+        </div>
+
+        <div class="nav-menu__right">
+          <a class="button" href="#contacts">Contacts</a>
+        </div>
+
+      </nav>
+    </header>
+
+    <div class="container first-section__hero-container section-box">
+      
+      <div class="first-section__left-wrapper">
+        <h1 class="first-section__title">Vlad Biryukov</h1>
+        <div class="first-section__job-name job-name">Junior Web Developer</div> 
+        <p class="first-section__text">
+          Hi, I’m interested in web-development. I’m looking to collaborate on web develpment and web design.
+        </p>
+        <a class="first-section__title first-section__resume" href="#">Download CV <i class="fa-solid fa-download"></i></a>
+      </div>
+
+      <div class="first-section__right-wrapper">
+        <img src="img/avatar.png" alt="avatar">
+      </div>
+
+    </div>
+  </section>
+
+  <!-- About me section -->
+  <section class="about-me" id="about-me">
+    <div class="container about-me__container section-box">
+      <h2 class="about-me__title title">About me</h2>
+      <div class="about-me__text">I strive to constantly learn and discover new things. At RS School, I want to master frontend development, because I like the visual part of the work, when you can immediately see the result in the browser.</div>
+    </div>
+  </section>
+
+  <!-- Skills section -->
+  <section class="skills" id="skills">
+    <div class="container skills__container section-box">
+
+      <h2 class="skills__title title">Skills</h2>
+
+      <dl class="skills-list">
+        <dt class="skills-list__html">HTML</dt>
+        <dd class="skills-list__level">
+          <div class="skills-list__progress-bar" style="width: 70%;"></div>
+        </dd>
+
+        <dt class="skills-list__css">CSS</dt>
+        <dd class="skills-list__level">
+          <div class="skills-list__progress-bar" style="width: 70%;"></div>
+        </dd>
+
+        <dt class="skills-list__js">JavaScript</dt>
+        <dd class="skills-list__level">
+          <div class="skills-list__progress-bar" style="width: 40%;"></div>
+        </dd>
+
+        <dt class="skills-list__sass">SASS</dt>
+        <dd class="skills-list__level">
+          <div class="skills-list__progress-bar" style="width: 50%;"></div>
+        </dd>
+
+        <dt class="skills-list__git">GIT</dt>
+        <dd class="skills-list__level">
+          <div class="skills-list__progress-bar" style="width: 30%;"></div>
+        </dd>
+
+        <dt class="skills-list__figma">Figma</dt>
+        <dd class="skills-list__level">
+          <div class="skills-list__progress-bar" style="width: 50%;"></div>
+        </dd>
+      </dl>
+    </div>
+  </section>
+
+  <!-- Projects section -->
+  <section class="projects" id="projects">
+    <div class="container projects__container section-box">
+  
+      <h2 class="projects__title title"><a name="projects">Projects</a></h2>
+  
+      <div class="projects__cards-box">
+        <a class="projects__cards-item cards-item" href="https://vobiryukov12.github.io/procrastinate/">
+          <div class="cards-item__box-img">
+            <img class="cards-item__img" src="img/procrastinate.jpg" alt="Procrastinate">
+          </div>
+          <div class="cards-item__content">
+            <h3 class="cards-item__title">Procrastinate (Yandex Praktikum)</h3>
+            <ul class="cards-item__stack">
+                <li class="cards-item__stack-button">JAVASCRIPT</li>
+                <li class="cards-item__stack-button">HTML</li>
+                <li class="cards-item__stack-button">CSS</li>
+            </ul>
+            <p class="cards-item__text">Procrastination constructor for work and life</p>
+          </div>
+        </a>
+
+        <a class="projects__cards-item cards-item hide" href="https://vobiryukov12.github.io/battleship/">
+          <div class="cards-item__box-img">
+            <img class="cards-item__img" src="img/battleship.jpg" alt="Battleship">
+          </div>
+          <div class="cards-item__content">
+            <h3 class="cards-item__title">Battleship (Head First JavaScript Programming)</h3>
+            <ul class="cards-item__stack">
+              <li class="cards-item__stack-button">JAVASCRIPT</li>
+              <li class="cards-item__stack-button">HTML</li>
+              <li class="cards-item__stack-button">CSS</li>
+            </ul>
+            <p class="cards-item__text">Game with large playing field, multiple ships and user input</p>
+          </div>
+        </a>
+      </div>
+
+      <button class="projects__button button" href="#">SEE ALL PROJECTS</button>
+    </div>
+  </section>
+
+  <!-- Education section -->
+  <section class="education" id="education">
+    <div class="container education__container section-box">
+      <h2 class="education__title title">Education</h2>
+        <ul class="education__list">
+          <li class="education__item section-box">
+            <div class="education__org">Peoples’ Friendship University of Russia, Moscow</div>
+            <div class="education__date">September 2020 - July 2022</div>
+            <div class="education__name">Master of Computer Science and Information Tehcnologies</div>
+          </li>
+        </ul>
+
+        <h2 class="education__title title">Courses</h2>
+
+        <ul class="education__list">
+          <li class="education__item section-box">
+            <div class="education__org">Yandex.Practicum</div>
+            <div class="education__name">Сourse "HTML, CSS, JavaScript: introductory module"</div>
+          </li>
+          <li class="education__item section-box">
+            <div class="education__org">HTML Academy</div>
+            <div class="education__name">Сourse "Start in Frontend"</div>
+          </li>
+          <li class="education__item section-box">
+            <div class="education__org">Hexlet</div> 
+            <div class="education__name">Сourse "JavaScript Basics"</div>
+          </li>
+        </ul>
+      </div>
+  </section>
+
+  <!-- Languages section -->
+  <section class="languages" id="languages">
+    <div class="container languages__container section-box">
+      <h2 class="languages__title title">Languages</h2>
+        <ul class="languages__list cards-item__stack">
+          <li class="languages__item cards-item__stack-button">Russian (Native)</li>
+          <li class="languages__item cards-item__stack-button">Uzbek (Basic)</li>
+          <li class="languages__item cards-item__stack-button">English (Elementary) <br>
+          </li>
+        </ul>
+      </div>
+  </section>
+
+  <!-- Contacts section -->
+  <div class="contacts" id="contacts">
+    <div class="container contacts__container section-box">
+      
+      <h2 class="languages__title title">Contacts</h2>
+
+      <div class="contacts__icons icons">
+        <div class="icons__box">
+          <a class="icons__item" href="mailto:vobiryukov12@mail.com">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+          <a class="icons__text" href="mailto:vobiryukov12@mail.com">vobiryukov12@gmail.com</a> 
+        </div>
+
+        <div class="icons__box">
+          <a class="icons__item" href="tel:+79690373569">
+            <i class="fa-solid fa-phone"></i>
+          </a>
+          <a class="icons__text" href="tel:+79690373569">+7(969) 037-35-69</a>
+        </div>
+
+        <div class="icons__box">
+          <a class="icons__item" href="https://t.me/vobiryukov12">
+            <i class="fa-brands fa-telegram"></i>
+          </a>
+          <a class="icons__text" href="https://t.me/vobiryukov12">@vobiryukov12</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer section -->
+  <footer class="footer-section">
+    <div class="container footer-section__container section-box">
+  
+      <a class="footer-section__icon" href="https://github.com/vobiryukov12"><i class="fa-brands fa-github"></i></a>
+
+      <div class="footer-section__year">&copy; 2022</div>
+
+      <a href="https://rs.school/js/"><img class="footer-section__img" src="img/rs_school_js.svg" alt="RS School" width="63" height="26"></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
 </body>
 </html>
