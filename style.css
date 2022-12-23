@@ -5,6 +5,10 @@
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth; 
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
@@ -112,6 +116,7 @@ body {
 .first-section__resume {
   font-size: 16px;
   line-height: 24px;
+  text-decoration: none;
 }
 .first-section__text {
   font-size: 16px;
